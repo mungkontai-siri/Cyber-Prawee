@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: my_db_compose
+    ports:
+      - "55432:5432"
+    environment:
+      - POSTGRES_DB=mungkon
+      - POSTGRES_USER=mungkon
+      - POSTGRES_PASSWORD=mungon
+  app:
+    image: prawee/strapi
+    container_name:  my_app_compose
+    ports:
+      - "8090:1337"
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=mungkon
+      - DATABASE_USERNAME=mungkon
+      - DATABASE_PASSWORD=mungon
+
