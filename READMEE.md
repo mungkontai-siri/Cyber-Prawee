@@ -1,3 +1,3 @@
 #Cybere security
 
-Korn<Mungkontai Siriworapan>
+Mungkontai Siriworapan
