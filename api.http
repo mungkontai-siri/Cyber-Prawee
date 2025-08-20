@@ -1,8 +1,8 @@
 #TEst API
-@username={{$env USER_NAME}}
-@password={{$env USER_PASSWORD}}
-@email={{$env USER_EMAIL}}
-@token={{$env USER_TOKEN}}
+@username={{$dotenv USER_NAME}}
+@password={{$dotenv USER_PASSWORD}}
+@email={{$dotenv USER_EMAIL}}
+@token={{$dotenv USER_TOKEN}}
 
 ### Identification//Register account
 POST http://localhost:8090/api/auth/local/register HTTP/1:1
