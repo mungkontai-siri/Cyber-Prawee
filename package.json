@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@hono/node-server": "^1.19.1",
     "hono": "^4.9.6",
     "prima": "^0.0.1",
     "prism": "^4.1.2"
