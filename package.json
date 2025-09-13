@@ -12,5 +12,7 @@
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   },
-  "type": "module"
+  "scripts": {
+    "build": "tsc src/server.ts --outDir dist" // รัน บน terminal : npx tsc src/server.ts --outDir dist
+  }
 }
